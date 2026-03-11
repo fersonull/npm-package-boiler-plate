@@ -13,6 +13,8 @@
     }
   },
   "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "dev": "tsup src/index.ts --format cjs,esm --watch --dts"
   },
@@ -20,5 +22,8 @@
     "dist",
     "README.md",
     "LICENCE"
-  ]
+  ],
+  "devDependencies": {
+    "vitest": "^4.0.18"
+  }
 }
