@@ -15,5 +15,10 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "dev": "tsup src/index.ts --format cjs,esm --watch --dts"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENCE"
+  ]
 }
